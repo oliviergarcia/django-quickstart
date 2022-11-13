@@ -26,6 +26,9 @@
     {% block content %}
         {% placeholder "Content" %}
     {% endblock content %}
+    {% block page_footer %}
+        {% placeholder "Footer" %}
+    {% endblock page_footer %}
     {% block base_js %}{% endblock %}
 {% endspaceless %}{% render_block 'js' %}{% spaceless %}
     {% block end_js %}{% endblock %}

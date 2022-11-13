@@ -133,14 +133,19 @@ THUMBNAIL_PROCESSORS = (
 
 
 CMS_TEMPLATES = [
-    # a minimal template to get started with
-    ('minimal.html', 'Minimal template'),
 
     # optional templates that extend base.html, to be used with Bootstrap 5
     ('bootstrap5.html', 'Bootstrap 5 Demo'),
 
+    # a minimal template to get started with
+    ('minimal.html', 'Minimal template'),
+    
     # serving static files with whitenoise demo
     ('whitenoise-static-files-demo.html', 'Static File Demo'),
+
+    ('fullwidth.html', 'Fullwidth'),
+    ('sidebar_left.html', 'Sidebar Left'),
+    ('sidebar_right.html', 'Sidebar Right')
 ]
 
 WSGI_APPLICATION = 'backend.wsgi.application'
